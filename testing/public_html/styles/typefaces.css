@@ -32,27 +32,27 @@ body {
 p {
     padding: 0;
     margin: 0;
-	line-height: 1.35em;
-	font-size: 1.3em;
-
+	  line-height: 1.35em;
+	  font-size: 1em;
+    font-weight: 300;
     margin-bottom: 15px;
-
-	transition: all 0.2s;
+    transition: all 0.2s;
 }
 h3 {
     padding: 0;
     margin: 0;
 	  font-size: 1.3em;
-    font-weight: 300;
+    font-weight: 700;
     margin-bottom: 15px;
 
 	  transition: all 0.2s;
 }
 h1 {
     padding: 0;
+    padding-top: 40px;
     margin: 0;
 	  font-size: 3em;
-    font-weight: 300;
+    font-weight: 700;
 
 /*    margin-bottom: 30px;*/
 
@@ -71,4 +71,7 @@ h1 {
 }
 ul li a {
 	font-size: 1.1em;
+}
+p a {
+  text-decoration: underline;
 }

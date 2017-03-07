@@ -37,8 +37,8 @@ body {
 
     transition: all 0.2s;
 
-    border-bottom: 2px solid #00B5AD;
-    padding-bottom: 1px;
+    border-bottom: 3px solid #00B5AD;
+    padding-bottom: 0px;
 }
 /*#navbarLogo {
     height: 45px;
@@ -70,12 +70,12 @@ body {
 .navbarDiv a:hover {
   transition-delay: 0s;
   transition-duration: 0s;
-  border-bottom: 4px solid #FFD400;
+  border-bottom: 3px solid #FFD400;
 }
 .navbarDiv a.selectedPage {
   /*width: 100%;*/
   height: 100%;
-  border-bottom: 4px solid #FFD400;
+  border-bottom: 3px solid #FFD400;
 }
 
 .hamburger {

@@ -7,7 +7,7 @@
 
 .sponsorDiv {
 	padding-top: 20px;
-	border-bottom: 1px solid #000000;
+	border-bottom: 1px solid #00B5AD;
 	max-width: 550px;
 }
 .lastsponsorDiv {
@@ -16,6 +16,16 @@
 
 .sponsorRow {
 	text-align: justify;
+}
+
+.leftCol {
+	float: left;
+	width: 550px;
+	margin-right: 100px;
+}
+
+.rightCol {
+	min-width: 320px;
 }
 
 .sponsorLogo {

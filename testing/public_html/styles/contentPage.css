@@ -45,6 +45,7 @@
 .section {
 /*	Add padding and negative margin for link anchor offset to acount for nav bar */
 /*	70 for navbar height and 30 for padding */
+	float: left;
 	padding-top: 100px;
 	margin: -70px 30px 30px 30px; /* Equivalent to 30 30 60 30 */
 }
@@ -60,18 +61,18 @@
 	margin: 0 0; /* Originally 30px 0 */
 }
 .content {
-	max-width: 650px;
+	/*max-width: 650px;*/
 	margin-bottom: 90px;
 }
 @media (min-width: 680px) {
 	.content {
-		padding-left: 120px;
+		padding: 0 10%;
 	}
 }
 @media (min-width: 1200px) {
     .content {
-        width: 50%;
+        /*width: 50%;
         padding-left: calc(26% - 30px);
-        max-width: 710px;
+        max-width: 710px;*/
     }
 }
