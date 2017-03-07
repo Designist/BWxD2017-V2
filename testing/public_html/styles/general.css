@@ -38,7 +38,7 @@ body {
     transition: all 0.2s;
 
     border-bottom: 2px solid #00B5AD;
-    padding-bottom: 2px;
+    padding-bottom: 1px;
 }
 /*#navbarLogo {
     height: 45px;
@@ -59,11 +59,22 @@ body {
 .navbarDiv li {
     float: none;
     display: inline-block;
-    margin: 0 4%;
-    padding: 0 2%
+    margin: 0 5%;
+    /padding: 0 2%
     /*font-size: 1.25em;*/
 }
-.navbarDiv li.active {
+.navbarDiv a {
+  display: inline-block;
+  width: 150%;
+}
+.navbarDiv a:hover {
+  transition-delay: 0s;
+  transition-duration: 0s;
+  border-bottom: 4px solid #FFD400;
+}
+.navbarDiv a.selectedPage {
+  /*width: 100%;*/
+  height: 100%;
   border-bottom: 4px solid #FFD400;
 }
 
@@ -168,7 +179,7 @@ position: absolute;
 }
 
 .selectedPage {
-	color: #FFD400;
+	color: #000000;
 }
 
 /**/
@@ -234,7 +245,7 @@ position: absolute;
 /*Links*/
 /**/
 a {
-    color: #EF413D;
+    color: #000000;
     text-decoration: none;
 
     transition: all 0.2s;
@@ -258,7 +269,7 @@ a {
     }
 
     a:hover {
-        color: #FFD400;
+        color: #000000;
     }
 }
 
