@@ -1,0 +1,27 @@
+#header {
+	background: linear-gradient(transparent, transparent),
+                 url(../images/banners/sponsors.jpg) no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url(../images/banners/sponsors.jpg) no-repeat;
+}
+
+.sponsorDiv {
+	padding-top: 30px;
+}
+.sponsorDiv h3 {
+	margin-bottom: 60px;
+}
+
+.sponsorLogo {
+	margin-bottom: 50px;
+}
+
+.lineLogo {
+	width: 100%;
+	max-width: 500px;
+}
+
+.squareLogo {
+	width: 60%;
+	max-width: 250px;
+}
