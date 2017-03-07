@@ -1,0 +1,39 @@
+<h2 id="an-article-with-bad-code">An article with bad code</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem temporibus eveniet sapiente aspernatur qui veniam ut molestiae mollitia! Voluptatum, unde molestias distinctio est sit omnis qui aperiam. Veniam, eum, assumenda.</p>
+<pre><code class="language-javascript">module.exports = function(template, max) {
+    template = template || 'partials/article-home.md';
+    var articles = this.pages('articles', 'date');
+    var html = '', to = max || articles.length;
+    for(var i=0; i&lt;to; i++) {
+        var article = articles[i];
+        html += this.template(template, {
+            title: article.get('title'),
+            preface: article.get('preface'),
+            link: this.linkto(article),
+            date: article.get('date'),
+            tags: article.get('tags').join(', ')
+        });
+    }
+    return html;
+}
+</code></pre><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem temporibus eveniet sapiente aspernatur qui veniam ut molestiae mollitia! Voluptatum, unde molestias distinctio est sit omnis qui aperiam. Veniam, eum, assumenda.</p>
+<pre><code class="language-javascript">module.exports = function(tag) {
+    var template = 'partials/article-home.md';
+    var articles = this.pages('articles', 'date');
+    var html = '', to = articles.length;
+    for(var i=0; i&lt;to; i++) {
+        var article = articles[i];
+        var tags = article.get('tags');
+        if(tags && tags.indexOf(tag) >= 0) {
+            html += this.template(template, {
+                title: article.get('title'),
+                preface: article.get('preface'),
+                link: this.linkto(article),
+                date: article.get('date'),
+                tags: article.get('tags').join(', ')
+            });
+        }
+    }
+    return html;
+}
+</code></pre><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem temporibus eveniet sapiente aspernatur qui veniam ut molestiae mollitia! Voluptatum, unde molestias distinctio est sit omnis qui aperiam. Veniam, eum, assumenda.</p>
