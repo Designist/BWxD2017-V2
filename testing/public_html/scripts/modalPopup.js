@@ -3,47 +3,47 @@ var offsetTop = $(window).height() * 0.1;
 $("a[rel*=leanModal]").leanModal({ top : offsetTop, overlay : 0.4, closeButton: ".modal_close" });
 
 var bioInfo = {
-	'callie-name'   : 'CALLIE CLAYTON',
-	'cameron-name'  : 'CAMERON ABSHER',
-	'caroline-name' : 'CAROLINE TURNER',
-	'clare-name'    : 'CLARE JESSEY',
-	'cyrus-name'    : 'CYRUS MADEN',
-	'daniela-name'  : 'DANIELA LONGORIA',
-	'eitan-name'    : 'EITAN BOIARSKY',
-	'evan-name'     : 'EVAN BOYD',
-	'indhu-name'    : 'INDHU SOLAYAPPAN',
-	'jd-name'       : 'JD TAN',
-	'lucie-name'    : 'LUCIE FLEMING',
-	'maddie-name'   : 'MADDIE FORBES',
-	'mandi-name'    : 'MANDI CAI',
-	'maria-name'    : 'MARIA RUSSO',
-	'may-name'      : 'MAY KODAMA',
-	'maya-name'     : 'MAYA OMORI',
-	'noah-name'     : 'NOAH BRAENDEL',
-	'phoebe-name'   : 'PHOEBE GALLO',
-	'raina-name'    : 'RAINA WELLMAN',
-	'taryn-name'    : 'TARYN OSHIRO-WACHI',
-	'teri-name'     : 'TERI MINOGUE',
-	'zoe-name'      : 'ZOË ENE',
-	
-	'alum-Isabella-name' : 'ISABELLA GIANCARLO',
-	'alum-Isaac-name'    : 'ISAAC BLACKENSMITH',
-	'alum-Joanna-name'   : 'JOANNA ZHANG',
-	'alum-Katharine-name': 'KATHARINE LI',
-	'alum-Lily-name'     : 'LILY MATTHEWS',
-	'alum-Mark-name'     : 'MARK TOWILL',
-	'alum-Matt-name'     : 'MATT SEVERSON',
-	'alum-Mike-name'     : 'MIKE ENG',
-	'alum-Minsoo-name'   : 'MINSOO THIGPEN',
-	'alum-Raaj-name'     : 'RAAJ PAREKH',
-	'alum-Sharon-name'   : 'SHARON LANGEVIN',
-	'alum-Sophia-name'   : 'SOPHIA YANG',
-	'alum-Steve-name'    : 'STEVE DANIELS',
-	'alum-Tim-name'      : 'TIM DINGMAN',
-	'alum-Tino-name'     : 'TINO CHOW',
-	'alum-Veronica-name' : 'VERONICA CLARKSON',
-	'alum-Yan-name'      : 'YAN LIANG',
-	
+	'callie-name'   : 'Callie Clayton',
+	'cameron-name'  : 'Cameron Absher',
+	'caroline-name' : 'Caroline Turner',
+	'clare-name'    : 'Clare Jessey',
+	'cyrus-name'    : 'Cyrus Maden',
+	'daniela-name'  : 'Daniela Longoria',
+	'eitan-name'    : 'Eitan Boiarsky',
+	'evan-name'     : 'Evan Boyd',
+	'indhu-name'    : 'Indhu Solayappan',
+	'jd-name'       : 'JD Tan',
+	'lucie-name'    : 'Lucie Fleming',
+	'maddie-name'   : 'Maddie Forbes',
+	'mandi-name'    : 'Mandi Cai',
+	'maria-name'    : 'Maria Russo',
+	'may-name'      : 'May Kodama',
+	'maya-name'     : 'Maya Omori',
+	'noah-name'     : 'Noah Braendel',
+	'phoebe-name'   : 'Phoebe Gallo',
+	'raina-name'    : 'Raina Wellman',
+	'taryn-name'    : 'Taryn Oshiro-Wachi',
+	'teri-name'     : 'Teri Minogue',
+	'zoe-name'      : 'Zoë Ene',
+
+	'alum-Isabella-name' : 'Isabella Giancarlo',
+	'alum-Isaac-name'    : 'Isaac Blackensmith',
+	'alum-Joanna-name'   : 'Joanna Zhang',
+	'alum-Katharine-name': 'Katharine Li',
+	'alum-Lily-name'     : 'Lily Matthews',
+	'alum-Mark-name'     : 'Mark Towill',
+	'alum-Matt-name'     : 'Matt Severson',
+	'alum-Mike-name'     : 'Mike Eng',
+	'alum-Minsoo-name'   : 'Minsoo Thigpen',
+	'alum-Raaj-name'     : 'Raaj Parekh',
+	'alum-Sharon-name'   : 'Sharon Langevin',
+	'alum-Sophia-name'   : 'Sophia Yang',
+	'alum-Steve-name'    : 'Steve Daniels',
+	'alum-Tim-name'      : 'Tim Dingman',
+	'alum-Tino-name'     : 'Tino Chow',
+	'alum-Veronica-name' : 'Veronica Clarkson',
+	'alum-Yan-name'      : 'Yan Liang',
+
 	'presenter-AlanHarlam-name'         : 'ALAN HARLAM',
 	'presenter-AllenPenniman-name'      : 'ALLEN PENNIMAN',
 	'presenter-AndrewMartinez-name'     : 'ANDREW MARTINEZ',
@@ -115,7 +115,7 @@ var bioInfo = {
 	'presenter-ThatcherBean-name'       : 'THATCHER BEAN',
 	'presenter-ThomasThwaites-name'     : 'THOMAS THWAITES',
 	'presenter-VirgilWong-name'         : 'VIRGIL WONG',
-	
+
 	'callie-img'   : 'url(images/team/Callie.jpg)',
 	'cameron-img'  : 'url(images/team/Cameron.jpg)',
 	'caroline-img' : 'url(images/team/Caroline.jpg)',
@@ -226,7 +226,7 @@ var bioInfo = {
 	'presenter-ThatcherBean-img'       : 'url(images/presenters/ThatcherBean.jpg)',
 	'presenter-ThomasThwaites-img'     : 'url(images/presenters/ThomasThwaites.jpg)',
 	'presenter-VirgilWong-img'         : 'url(images/presenters/VirgilWong.jpg)',
-	
+
 	'callie-bio'   : "Originally from Dallas, Texas, Callie is a Junior at RISD studying Textiles and concentrating in Nature Culture Sustainability Studies. She ardently believes that science and design are integral to each other and intrinsically linked. Her interests in this relationship drives her work, interests, hopes and goals for the Better World Conference! In her free time, Callie enjoys experimenting with materials, hiking, camping, and reading magazines.",
 	'cameron-bio'  : "From the beaches of Naples, Florida to frigid Rhode Island, Cameron is an always smiling student who is enthusiastic about fostering the relationship of the creative and the analytic. Cameron hopes to enter the industrial design program at RISD with a focus on design entrepreneurship and venture capitalism. His best friend is a gourmet burger and truffle fries, and he can often be seen with headphones around his neck with music that’s way too loud.",
 	'caroline-bio' : "Caroline is fascinated by how things work on a personal, group, and structural level. This passion has led her to pursue a degree in Human Factors, bringing together knowledge of Cognitive Science and skills from Engineering. Outside of academia, Caroline can usually be found in a coffee shop, on a frisbee field, or in her hometown of Ridgefield, Connecticut.",
@@ -337,7 +337,7 @@ var bioInfo = {
 	'presenter-ThatcherBean-bio'       : 'Thatcher Bean is the Advocacy and Media Producer for MASS Design Group. He joined in 2013 to document the construction and use of MASS Design Group’s health infrastructure in Rwanda. The resulting videos accompanied Alan Rick’s TED talk on how buildings can heal communities. Since then he has worked with MASS as a media producer to explore how video can be used as a unique tool to assess and convey the impact of our built environments. Thatcher obtained a BFA from the University of Colorado film studies program.',
 	'presenter-ThomasThwaites-bio'     : 'Thomas Thwaites is a designer exhibited frequently and internationally. His works explore economic, philosophical or techno-social topics across subjects including biology, economics, philosophy, and materials science. He earned an MA in Design Interaction from Royal College of Art and his first book, “The Toaster Project”, was published by Princeton Architectural Press to critical acclaim. It has now been translated into Japanese and Korean editions and was acquired by the Victoria & Albert Museum for their permanent collection. His second book, about his attempt to become a goat, was published in May 2016, and is being translated into Norwegian and Korean.',
 	'presenter-VirgilWong-bio'         : 'Virgil Wong (RISD ‘95) creates art and technologies to transform human health. As CEO of Medical Avatar LLC, he has pioneered medical “time travel” visualizations that have dramatically reduced the incidence of diabetes and heart disease. He is currently Executive Director of Creative Services at Element Solutions, a customer engagement company with technological expertise in healthcare and other industries.Virgil has also exhibited his interactive art installations in museums around the world.',
-	
+
 	'callie-link'   : 'http://www.callieclayton.com/',
 	'cameron-link'  : 'https://www.linkedin.com/in/cameron-absher-8255a310a',
 	'caroline-link' : 'https://www.linkedin.com/in/caroline-turner-992b29a7',
@@ -453,14 +453,14 @@ var bioInfo = {
 function populateModal(elt) {
 	var id = elt.parent().attr('id');
 	console.log(id);
-	
+
 	var name = bioInfo[id + '-name'];
 	var img = bioInfo[id + '-img'];
 	var bio = bioInfo[id + '-bio'];
 	var link = bioInfo[id + '-link'];
-	
+
 	var modal = $("#modalPopup");
-	
+
 	modal.find('.personImg').css('background-image', img);
 	modal.find('.name').html(name);
 	modal.find('.name').attr('href', link);

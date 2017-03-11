@@ -78,6 +78,10 @@ body {
   border-bottom: 3px solid #FFD400;
 }
 
+.navTitle {
+  padding-top: 0px;
+}
+
 .hamburger {
 	width: 65px;
 	height: 35px;

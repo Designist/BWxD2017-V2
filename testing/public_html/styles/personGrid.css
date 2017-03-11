@@ -1,13 +1,13 @@
 @media (min-width: 1200px) {
-	.photoSection {
+	/*.photoSection {
 		width: calc(130%);
 	}
 	.photoSectionText {
 		width: 70%;
-	}
+	}*/
 	.personProfile {
-		width: 20%;
-		margin-right: 5%;
+		width: 30%;
+		margin-right: 10%;
 	}
 }
 .personProfile {
@@ -15,12 +15,12 @@
 	width: 40%;
 	margin-right: 10%;
 	margin-top: 15px;
-	
+	margin-bottom: 10px;
 	position: relative;
 }
 @media (min-width: 750px) {
 	.personProfile {
-		width: 28%;
+		width: 20%;
 		margin-right: 5%;
 	}
 	.nameBreak {
@@ -29,7 +29,7 @@
 }
 @media (min-width: 1200px) {
 	.personProfile {
-		width: 20%;
+		width: 28%;
 		margin-right: 5%;
 	}
 }
@@ -43,7 +43,7 @@
 	top: 0;
 	left: 0;
 	z-index: 1;
-	
+
 	pointer-events: none;
 }
 .personLink-img {
@@ -54,9 +54,15 @@
 }
 
 .personLink-txt {
-	font-size: 1.2em;
+	font-size: 1.3em;
+	font-weight: 500;
 	color: #241F59;
 	border-bottom: 1px solid #241F59;
+}
+.schoolTag, .committeeRole {
+	font-weight: 500;
+	font-size: 1em;
+	margin-bottom: 0;
 }
 @media (min-width: 1200px) {
 	.personLink-txt:hover {
@@ -92,10 +98,10 @@
 	position: relative;
 	font-size: 1.2em;
 	top: 5px;
-	
+
 	color: #241F59;
 	border-bottom: 1px solid #241F59;
-	
+
 	margin-bottom: 15px;
 }
 
@@ -105,25 +111,25 @@
 
 #modalPopup {
 	display: none;
-	
+
 	position: relative;
-	
+
 	background-color: white;
 	border: 2px solid #00B5AD;
-	
-	width: 60%;	
+
+	width: 60%;
 	max-height: 70vh;
 	overflow: scroll;
-	
+
 	margin: 0 auto;
-	
+
 	padding: 30px;
 }
 #modalPopup .modal_close {
 	position: absolute;
 	top: 15px;
 	right: 15px;
-	
+
 	width: 20px;
 }
 @media (min-width: 1200px) {
@@ -139,29 +145,29 @@
 #modalPopup .imgDiv {
 	position: relative;
 	margin-top: 15px;
-	
+
 	margin-bottom: 30px;
 }
 #modalPopup .personImg-border {
 	width: 200px;
-	
+
 	position: absolute;
 	top: 0;
 	left: 50%;
 	transform: translateX(-50%);
 	-webkit-transform: translateX(-50%);
-	
+
 	z-index: 1;
-	
+
 	pointer-events: none;
 }
 #modalPopup .personImg {
 	border-radius: 50%;
 	width: 200px;
 	padding-top: 200px; /*to set the same as width, because height: 100% isn't working */
-	
+
 	margin: 0 auto;
-	
+
 	background-size: contain;
 }
 @media (min-width: 600px) {
@@ -176,7 +182,7 @@
 #modalPopup .name {
 	line-height: 1.35em;
 	font-size: 1.3em;
-	
+
 	color: #241F59;
 	border-bottom: solid 1px #241F59;
 }
@@ -218,14 +224,14 @@
 	#modalPopup .textDiv {
 		float: right;
 		width: calc(100% - 330px);
-		
+
 		margin-top: 15px;
 		margin-bottom: 15px;
 		max-height: 60vh;
 		min-height: 300px;
 		overflow: scroll;
 	}
-	
+
 	#modalPopup .personImg-border {
 		width: 300px;
 	}
