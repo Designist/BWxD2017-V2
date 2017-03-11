@@ -46,7 +46,7 @@
 		max-width: 47%;
 		/*The next two lines are used for left scrollbar:*/
 		overflow-y: auto;
-		height: 75vh;
+		height: 80vh;
 		/*height: auto;
 		/*overflow: scroll;
 		/*overflow-y: auto;*/
@@ -58,7 +58,7 @@
 		max-width: 47%;
 		/*The next two lines are used for right scrollbar:*/
 		overflow-y: auto;
-		height: 75vh;
+		height: 80vh;
 		/*height: auto;
 		overflow: auto;*/
 		/*overflow-y: auto;*/
