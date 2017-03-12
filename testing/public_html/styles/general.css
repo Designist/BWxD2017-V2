@@ -183,7 +183,7 @@ position: absolute;
 }
 
 .selectedPage {
-	color: #000000;
+	/*color: #000000;*/
 }
 
 /**/
@@ -249,7 +249,7 @@ position: absolute;
 /*Links*/
 /**/
 a {
-    color: #000000;
+    color: #241F59;
     text-decoration: none;
 
     transition: all 0.2s;
@@ -273,7 +273,7 @@ a {
     }
 
     a:hover {
-        color: #000000;
+        color: #00B5AD;
     }
 }
 
