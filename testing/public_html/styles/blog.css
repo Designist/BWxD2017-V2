@@ -8,7 +8,6 @@
   -moz-border-radius: 50%;
   border-radius: 50%;
 
-  color: black;
   text-align: center;
   font-weight: 500;
   font-size: 1.5em;
@@ -75,8 +74,11 @@ a {
     margin-right: 100px;
     float: left;
   }
+  .article {
+    padding-top: 10px;
+  }
   .pressCol {
-    padding-top: 20px;
+    padding-top: 10px;
     width: 24%;
     float: left;
   }
