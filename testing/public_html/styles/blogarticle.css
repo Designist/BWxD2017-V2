@@ -27,6 +27,10 @@ h2 {
   padding-bottom: 12px;
 }
 
+p {
+  font-size: 1.15em;
+}
+
 /* desktop-specific styling */
 @media (min-width: 1200px) {
   .leftCol {
