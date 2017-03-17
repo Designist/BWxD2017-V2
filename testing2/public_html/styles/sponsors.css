@@ -1,0 +1,70 @@
+#header {
+	background: linear-gradient(transparent, transparent),
+                 url(../images/banners/sponsors.jpg) no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url(../images/banners/sponsors.jpg) no-repeat;
+}
+
+.sponsorDiv {
+	/*padding-top: 20px;*/
+	border-bottom: 1px solid #00B5AD;
+	/*max-width: 550px;*/
+}
+.lastsponsorDiv {
+	/*padding-top: 20px;*/
+	/*text-align: justify;*/
+	/*max-width: 550px;*/
+}
+
+.sponsorRow {
+
+}
+
+.leftCol {
+	/*float: left;
+	width: inherit;*/
+	/*margin-right: 100px;*/
+}
+
+.rightCol {
+	min-width: 320px;
+}
+
+.sponsorLogo {
+	margin-bottom: 25px;
+	vertical-align: middle;
+}
+
+.lineLogo {
+	width: 100%;
+	max-width: 140px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.squareLogo {
+	width: 60%;
+	max-width: 100px;
+	padding-left: 35px;
+	margin-right: 35px;
+}
+
+@media (min-width: 1200px) {
+	.leftCol {
+		float: left;
+		/*width: 550px;*/
+		margin-right: 100px;
+		max-width: 550px;
+	}
+	.sponsorDiv {
+		max-width: 550px;
+	}
+	.lastsponsorDiv {
+		max-width: 550px;
+	}
+}
+/*@media (min-width: 550px) {
+	.sponsorDiv, .lastsponsorDiv {
+		text-align: justify;
+	}
+}*/
