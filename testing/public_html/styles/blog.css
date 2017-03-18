@@ -67,6 +67,10 @@ a {
   text-decoration: underline;
 }
 
+.bullet {
+  font-size: 0.8em;
+}
+
 /* Desktop specific styling: press, circles, etc. */
 @media (min-width: 1200px) {
   .leftCol {

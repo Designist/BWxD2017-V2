@@ -18,10 +18,15 @@ h2 {
   margin-bottom: 5px;
 }
 .yellowBull {
+  font-size: 0.8em;
   color: #FFD400;
 }
 .greenBull {
+  font-size: 0.8em;
   color: #00B5AD;
+}
+.redBull {
+  font-size: 0.8em;
 }
 .previewImage {
   padding-bottom: 12px;
