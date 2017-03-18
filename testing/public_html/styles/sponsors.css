@@ -52,16 +52,16 @@
 @media (min-width: 1200px) {
 	.leftCol {
 		float: left;
-		/*width: 550px;*/
+		width: calc(65% - 90px);
 		margin-right: 100px;
-		max-width: 550px;
+		/*max-width: 550px;*/
 		margin-left: 90px;
 	}
 	.sponsorDiv {
-		max-width: 550px;
+		/*max-width: 550px;*/
 	}
 	.lastsponsorDiv {
-		max-width: 550px;
+		/*max-width: 550px;*/
 	}
 }
 /*@media (min-width: 550px) {

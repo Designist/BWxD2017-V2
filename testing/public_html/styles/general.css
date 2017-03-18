@@ -173,7 +173,7 @@ position: absolute;
         line-height: 60px;
     }
     .leftCol, .rightCol, .pressCol {
-      padding-top: 30px;
+      padding-top: 48px;
     }
     .fixedCol {
       height: 100%;

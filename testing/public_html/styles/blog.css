@@ -36,12 +36,16 @@
 
 .previewImage {
   width: 100%;
+  padding-bottom: 15px;
+  padding-left: 1px;
+  padding-right: 1px;
 }
 
 .article {
   padding-top: 20px;
   height: auto;
   display: block;
+  padding-bottom: 10px;
 }
 
 a {
@@ -54,21 +58,37 @@ a {
   overflow: hidden;
 }
 
-.pressItem {
-  padding-bottom: 10px;
-}
 .pressItem a {
   font-weight: 500;
   font-size: 1.1em;
   text-decoration: underline;
 }
+.pressItem p {
+  margin-bottom: 16px;
+}
+
+.yellowBull {
+  font-size: 0.8em;
+  color: #FFD400;
+}
+.greenBull {
+  font-size: 0.8em;
+  color: #00B5AD;
+}
+.redBull {
+  font-size: 0.8em;
+}
 
 .bullet {
   font-size: 0.8em;
+  padding: 0 2px;
 }
 
 h2 {
   line-height: 1.1em;
+  padding-bottom: 6px;
+}
+.pressCol h2 {
   padding-bottom: 16px;
 }
 
@@ -78,7 +98,11 @@ h2 {
     width: 65%;
     margin-right: 100px;
     float: left;
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .content {
+    padding-top: 10px;
   }
   .article {
     padding-top: 10px;
@@ -87,6 +111,10 @@ h2 {
     /*padding-top: 90px;*/
     width: 24%;
     float: left;
+    padding-top: 40px;
+  }
+  .greenBull, .yellowBull, .redBull {
+    color: #241F59;
   }
 }
 @media (max-width: 1199px) {
