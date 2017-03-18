@@ -44,10 +44,6 @@
   display: block;
 }
 
-.article p {
-    letter-spacing: 0.01em;
-}
-
 a {
   /*color: #241F59;*/
 }
@@ -71,18 +67,24 @@ a {
   font-size: 0.8em;
 }
 
+h2 {
+  line-height: 1.1em;
+  padding-bottom: 16px;
+}
+
 /* Desktop specific styling: press, circles, etc. */
 @media (min-width: 1200px) {
   .leftCol {
     width: 65%;
     margin-right: 100px;
     float: left;
+    padding-top: 20px;
   }
   .article {
     padding-top: 10px;
   }
   .pressCol {
-    padding-top: 10px;
+    /*padding-top: 90px;*/
     width: 24%;
     float: left;
   }

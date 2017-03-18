@@ -42,7 +42,7 @@ red    - #EF413D
 	}
 }
 
-.scheduleToggleArrow {	
+.scheduleToggleArrow {
 	transition: 0.2s all;
 	-webkit-transition: 0.2s all;
 }
@@ -60,7 +60,7 @@ red    - #EF413D
 }
 
 .scheduleDay {
-	padding-top: 100px;  
+	padding-top: 100px;
 	margin-top: -70px;
 }
 
@@ -68,9 +68,9 @@ red    - #EF413D
 	width: 100vw;
 	margin-left: -30px;
 	margin-top: 15px;
-	
+
 	padding: 30px 0;
-	
+
 	color: white;
 	text-align: center;
 }
@@ -120,6 +120,39 @@ red    - #EF413D
 	}
 }
 
+.themeYear {
+	font-weight: 500;
+	color: #00B5AD;
+}
+.themeDesc {
+	font-weight: 500;
+}
+.theme {
+	padding-bottom: 10px;
+	border-bottom: 2px solid #00B5AD;
+}
+h4 {
+	font-size: 1.4em;
+	margin: 0px;
+	padding-bottom: 10px;
+}
+
+@media (min-width: 1200px) {
+  .leftCol {
+    width: 50%;
+    margin-right: 100px;
+    float: left;
+		margin-left: 90px;
+  }
+	.rightCol {
+		width: 22%;
+		float: left;
+	}
+	.visibleHead {
+		padding-bottom: 20px;
+	}
+}
+
 /**/
 /* Schedule Event */
 /**/
@@ -129,7 +162,7 @@ red    - #EF413D
 }
 .colorblock {
 	position: relative;
-	
+
 	border-left: 10px solid black;
 	padding-left: 15px;
 	margin-bottom: 30px;
@@ -150,13 +183,13 @@ red    - #EF413D
 .scheduleEventTitle {
 	display: inline;
 	vertical-align: middle;
-	
+
 	font-size: 2em;
 }
 .scheduleEventContentToggleArrow {
 	display: inline-block;
 	vertical-align: middle;
-	
+
 	width: 20px;
 	margin-left: 8px;
 }
@@ -171,7 +204,7 @@ red    - #EF413D
 
 .scheduleEventContentToggle {
 	/* pointer and hand are the same for different browsers */
-	cursor: pointer; 
+	cursor: pointer;
 	cursor: hand;
 }
 
@@ -191,10 +224,10 @@ red    - #EF413D
 	float: left;
 	font-weight: 700;
 	margin-top: 2px;
-	
+
 	position: absolute;
 	left: -128px;
-	
+
 	text-align: right;
 	width: 104px;
 }

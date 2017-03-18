@@ -172,6 +172,19 @@ position: absolute;
         height: 60px;
         line-height: 60px;
     }
+    .leftCol, .rightCol, .pressCol {
+      padding-top: 30px;
+    }
+    .fixedCol {
+      height: 100%;
+      position: absolute;
+      transform: translateZ(0);
+      -moz-transform: translatez(0);
+      -ms-transform: translatez(0);
+      -o-transform: translatez(0);
+      -webkit-transform: translateZ(0);
+      -webkit-font-smoothing: antialiased;
+    }
 
     #navbarLogo {
         height: 50px;
