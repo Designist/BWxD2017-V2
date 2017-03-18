@@ -37,7 +37,7 @@ red    - #EF413D
 }
 @media (min-width: 1200px) {
 	#schedule a:hover {
-		color: #FFD400;
+		color: #00B5AD;
 		border-bottom: 1px solid #FFD400;
 	}
 }
@@ -123,23 +123,37 @@ red    - #EF413D
 .themeYear {
 	font-weight: 500;
 	color: #00B5AD;
+	font-size: 2.5em;
 }
 .themeDesc {
 	font-weight: 500;
 }
 .theme {
 	padding-bottom: 10px;
-	border-bottom: 2px solid #00B5AD;
+	border-bottom: 1px solid #00B5AD;
+	width: 180px;
+	padding-top: 1px;
 }
 h4 {
-	font-size: 1.4em;
+	font-size: 1.3em;
 	margin: 0px;
 	padding-bottom: 10px;
+}
+.companyName {
+	font-size: 1.0em;
+	font-weight: 500;
+	border-bottom: none;
+	pointer-events: none;
+  cursor: default;
+	margin: 0;
+}
+.personProfile {
+	margin-top: 20px;
 }
 
 @media (min-width: 1200px) {
   .leftCol {
-    width: 50%;
+    width: calc(65% - 90px);
     margin-right: 100px;
     float: left;
 		margin-left: 90px;
@@ -150,6 +164,17 @@ h4 {
 	}
 	.visibleHead {
 		padding-bottom: 20px;
+	}
+	.personLink-img {
+		width: 71%;
+		padding-top: 71%;
+	}
+	.personImg-border {
+		width: 71%;
+	}
+	.personProfile {
+		width: 25%;
+		margin-right: 0px;
 	}
 }
 
@@ -238,6 +263,10 @@ h4 {
 	.nameBreak {
 		display: block;
 	}
+}
+
+.personLink-img {
+	margin-right: 20%;
 }
 
 #presenter-AlanHarlam .personLink-img {

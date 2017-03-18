@@ -66,12 +66,12 @@
 }
 @media (min-width: 1200px) {
 	.personLink-txt:hover {
-		color: #FFD400;
-		border-bottom: 1px solid #FFD400;
+		color: #00B5AD;
+		border-bottom: 1px solid #00B5AD;
 	}
 	.companyName:hover {
-		color: #FFD400;
-		border-bottom: 1px solid #FFD400;
+		color: #00B5AD;
+		border-bottom: 1px solid #00B5AD;
 	}
 }
 
