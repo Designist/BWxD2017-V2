@@ -40,6 +40,12 @@ body {
     border-bottom: 2px solid #00B5AD;
     padding-bottom: 0px;
 }
+/*.navbarDiv-open {
+  transform: translate3d(256px, 0px, 0px);
+}
+.contentContainer-open {
+  transform: translate3d(0px, -60px, 0px);
+}*/
 /*#navbarLogo {
     height: 45px;
 
@@ -101,7 +107,7 @@ body {
   overflow: visible;
 position: absolute;
 	top: 50%;
-    right: 15px;
+    left: 15px;
     transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 }
@@ -112,7 +118,7 @@ position: absolute;
   display: inline-block;
   position: absolute;
 	top: 50%;
-    right: 15px;
+    left: 15px;
     transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 }

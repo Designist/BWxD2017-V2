@@ -8,12 +8,13 @@ body {
   left: auto;
   top: 0;
   bottom: 0;
-  right: 0;
+  left: 0;
   z-index: 0;
-  width: 286px;
+  width: 256px;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   display: none;
+  background-color: red;
 }
 
 .slideout-panel {

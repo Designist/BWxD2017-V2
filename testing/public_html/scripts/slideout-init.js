@@ -1,9 +1,9 @@
 var slideout = new Slideout({
     'panel': document.getElementById('panel'),
     'menu': document.getElementById('menu'),
-    'padding': 286,
+    'padding': 256,
     'tolerance': 70,
-    'side': 'right',
+    'side': 'left',
     'touch': false
 });
 
@@ -14,19 +14,20 @@ document.querySelector('.toggle-button').addEventListener('click', function() {
 
 //add a click listener to close the slideout and add right border to content
 slideout.on('beforeopen', function() {
+    // document.querySelector('.navbarDiv').className += ' navbarDiv-open';
+    // document.querySelector('.contentContainer').className += ' contentContainer-open';
     $('.contentContainer').click(function() {
         slideout.close();
     });
-    $('.contentContainer').css('border-right', '2px solid #00B5AD');
-	
-	$('.hamburger').addClass('is-active');
+    $('.contentContainer').css('border-left', '2px solid #00B5AD');
+	  $('.hamburger').addClass('is-active');
 });
 slideout.on('beforeclose', function() {
+    // document.querySelector('.navbarDiv').className = 'navbarDiv';
     $('.contentContainer').click(function() {});
-	
-	$('.hamburger').removeClass('is-active');
+	  $('.hamburger').removeClass('is-active');
 });
 slideout.on('close', function() {
-    $('.contentContainer').css('border-right', 'none');
-	layout();
+    $('.contentContainer').css('border-left', 'none');
+	  layout();
 });
