@@ -47,7 +47,7 @@ p {
 	#teamBanner {
 		width: 100%;
 		position: relative;
-		padding-top: 20px;
+		padding-top: 21px;
 	}
 	::-webkit-scrollbar {
     display: none;
@@ -95,6 +95,13 @@ p {
 
 /* Individual people */
 
+#brian .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/team2017/Brian.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/team2017/Brian.jpg') no-repeat;
+	background-size: contain;
+}
 #callie .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/team/Callie.jpg') no-repeat;
@@ -104,9 +111,16 @@ p {
 }
 #cameron .personLink-img {
 	background: linear-gradient(transparent, transparent),
-                 url('../images/team/Cameron.jpg') no-repeat;
+                 url('../images/team2017/Cameron.jpg') no-repeat;
 	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team/Cameron.jpg') no-repeat;
+                 url('../images/team2017/Cameron.jpg') no-repeat;
+	background-size: contain;
+}
+#carmen .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/team2017/Carmen.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/team2017/Carmen.jpg') no-repeat;
 	background-size: contain;
 }
 #caroline .personLink-img {
@@ -123,11 +137,18 @@ p {
                  url('../images/team/Clare.jpg') no-repeat;
 	background-size: contain;
 }
+#curtis .personLink-img {
+	background: linear-gradient(transparent, transparent),
+								 url('../images/team2017/Curtis.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+								 url('../images/team2017/Curtis.jpg') no-repeat;
+	background-size: contain;
+}
 #cyrus .personLink-img {
 	background: linear-gradient(transparent, transparent),
-                 url('../images/team/Cyrus.jpg') no-repeat;
+                 url('../images/team2017/Cyrus.jpg') no-repeat;
 	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team/Cyrus.jpg') no-repeat;
+                 url('../images/team2017/Cyrus.jpg') no-repeat;
 	background-size: contain;
 }
 #daniela .personLink-img {
@@ -137,6 +158,13 @@ p {
                  url('../images/team/Daniela.jpg') no-repeat;
 	background-size: contain;
 }
+#dylan .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/team2017/Dylan.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/team2017/Dylan.jpg') no-repeat;
+	background-size: contain;
+}
 #eitan .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/team/Eitan.jpg') no-repeat;
@@ -144,11 +172,18 @@ p {
                  url('../images/team/Eitan.jpg') no-repeat;
 	background-size: contain;
 }
+#elaine .personLink-img {
+	background: linear-gradient(transparent, transparent),
+				 url('../images/team2017/Elaine.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+				 url('../images/team2017/Elaine.jpg') no-repeat;
+	background-size: contain;
+}
 #evan .personLink-img {
 	background: linear-gradient(transparent, transparent),
-                 url('../images/team/Evan.jpg') no-repeat;
+                 url('../images/team2017/Evan.jpg') no-repeat;
 	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team/Evan.jpg') no-repeat;
+                 url('../images/team2017/Evan.jpg') no-repeat;
 	background-size: contain;
 }
 #indhu .personLink-img {
@@ -158,11 +193,53 @@ p {
                  url('../images/team/Indhu.jpg') no-repeat;
 	background-size: contain;
 }
+#javier .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/team2017/Javier.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/team2017/Javier.jpg') no-repeat;
+	background-size: contain;
+}
 #jd .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/team/JD.jpg') no-repeat;
 	background: -webkit-linear-gradient(transparent, transparent),
                  url('../images/team/JD.jpg') no-repeat;
+	background-size: contain;
+}
+#joseph .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/team2017/Joseph.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/team2017/Joseph.jpg') no-repeat;
+	background-size: contain;
+}
+#kana .personLink-img {
+	background: linear-gradient(transparent, transparent),
+								 url('../images/team2017/kana.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+								 url('../images/team2017/kana.jpg') no-repeat;
+	background-size: contain;
+}
+#katherine .personLink-img {
+	background: linear-gradient(transparent, transparent),
+								 url('../images/team2017/Katherine.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+								 url('../images/team2017/Katherine.jpg') no-repeat;
+	background-size: contain;
+}
+#kathleen .personLink-img {
+	background: linear-gradient(transparent, transparent),
+								 url('../images/team2017/Kathleen.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+								 url('../images/team2017/Kathleen.jpg') no-repeat;
+	background-size: contain;
+}
+#kendra .personLink-img {
+	background: linear-gradient(transparent, transparent),
+								 url('../images/team2017/Kendra.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+								 url('../images/team2017/Kendra.jpg') no-repeat;
 	background-size: contain;
 }
 #lucie .personLink-img {
@@ -202,16 +279,37 @@ p {
 }
 #maya .personLink-img {
 	background: linear-gradient(transparent, transparent),
-                 url('../images/team/Maya.jpg') no-repeat;
+                 url('../images/team2017/Maya.jpg') no-repeat;
 	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team/Maya.jpg') no-repeat;
+                 url('../images/team2017/Maya.jpg') no-repeat;
+	background-size: contain;
+}
+#michelle .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/team2017/Michelle.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/team2017/Michelle.jpg') no-repeat;
+	background-size: contain;
+}
+#natasha .personLink-img {
+	background: linear-gradient(transparent, transparent),
+								 url('../images/team2017/Natasha.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+								 url('../images/team2017/Natasha.jpg') no-repeat;
+	background-size: contain;
+}
+#nick .personLink-img {
+	background: linear-gradient(transparent, transparent),
+								 url('../images/team2017/Nick.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+								 url('../images/team2017/Nick.jpg') no-repeat;
 	background-size: contain;
 }
 #noah .personLink-img {
 	background: linear-gradient(transparent, transparent),
-                 url('../images/team/Noah.jpg') no-repeat;
+                 url('../images/team2017/Noah.jpg') no-repeat;
 	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team/Noah.jpg') no-repeat;
+                 url('../images/team2017/Noah.jpg') no-repeat;
 	background-size: contain;
 }
 #phoebe .personLink-img {
@@ -223,9 +321,9 @@ p {
 }
 #raina .personLink-img {
 	background: linear-gradient(transparent, transparent),
-                 url('../images/team/Raina.jpg') no-repeat;
+                 url('../images/team2017/Raina.jpg') no-repeat;
 	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team/Raina.jpg') no-repeat;
+                 url('../images/team2017/Raina.jpg') no-repeat;
 	background-size: contain;
 }
 #taryn .personLink-img {
@@ -237,9 +335,23 @@ p {
 }
 #teri .personLink-img {
 	background: linear-gradient(transparent, transparent),
-                 url('../images/team/Teri.jpg') no-repeat;
+                 url('../images/team2017/Teri.jpg') no-repeat;
 	background: -webkit-linear-gradient(transparent, transparent),
-                 url('../images/team/Teri.jpg') no-repeat;
+                 url('../images/team2017/Teri.jpg') no-repeat;
+	background-size: contain;
+}
+#tina .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/team2017/Tina.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/team2017/Tina.jpg') no-repeat;
+	background-size: contain;
+}
+#wen .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/team2017/Wen.jpg') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/team2017/Wen.jpg') no-repeat;
 	background-size: contain;
 }
 #zoe .personLink-img {
@@ -251,6 +363,13 @@ p {
 }
 
 @media (min-width: 1200px){
+	#brian .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../images/team2017/fun-Brian.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../images/team2017/fun-Brian.jpg') no-repeat;
+		background-size: contain;
+	}
 	#callie .personLink-img:hover {
 		background: linear-gradient(transparent, transparent),
 					 url('../images/team/fun-Callie.jpg') no-repeat;
@@ -260,9 +379,16 @@ p {
 	}
 	#cameron .personLink-img:hover {
 		background: linear-gradient(transparent, transparent),
-					 url('../images/team/fun-Cameron.jpg') no-repeat;
+					 url('../images/team2017/fun-Cameron.jpg') no-repeat;
 		background: -webkit-linear-gradient(transparent, transparent),
-					 url('../images/team/fun-Cameron.jpg') no-repeat;
+					 url('../images/team2017/fun-Cameron.jpg') no-repeat;
+		background-size: contain;
+	}
+	#carmen .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../images/team2017/fun-Carmen.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../images/team2017/fun-Carmen.jpg') no-repeat;
 		background-size: contain;
 	}
 	#caroline .personLink-img:hover {
@@ -279,11 +405,18 @@ p {
 					 url('../images/team/fun-Clare.jpg') no-repeat;
 		background-size: contain;
 	}
+	#curtis .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../images/team2017/fun-Curtis.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../images/team2017/fun-Curtis.jpg') no-repeat;
+		background-size: contain;
+	}
 	#cyrus .personLink-img:hover {
 		background: linear-gradient(transparent, transparent),
-					 url('../images/team/fun-Cyrus.jpg') no-repeat;
+					 url('../images/team2017/fun-Cyrus.jpg') no-repeat;
 		background: -webkit-linear-gradient(transparent, transparent),
-					 url('../images/team/fun-Cyrus.jpg') no-repeat;
+					 url('../images/team2017/fun-Cyrus.jpg') no-repeat;
 		background-size: contain;
 	}
 	#daniela .personLink-img:hover {
@@ -293,6 +426,13 @@ p {
 					 url('../images/team/fun-Daniela.jpg') no-repeat;
 		background-size: contain;
 	}
+	#dylan .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../images/team2017/fun-Dylan.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../images/team2017/fun-Dylan.jpg') no-repeat;
+		background-size: contain;
+	}
 	#eitan .personLink-img:hover {
 		background: linear-gradient(transparent, transparent),
 					 url('../images/team/fun-Eitan.jpg') no-repeat;
@@ -300,11 +440,25 @@ p {
 					 url('../images/team/fun-Eitan.jpg') no-repeat;
 		background-size: contain;
 	}
+	#elaine .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+					 url('../images/team2017/fun-Elaine.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+					 url('../images/team2017/fun-Elaine.jpg') no-repeat;
+		background-size: contain;
+	}
 	#evan .personLink-img:hover {
 		background: linear-gradient(transparent, transparent),
-					 url('../images/team/fun-Evan.jpg') no-repeat;
+					 url('../images/team2017/fun-Evan.jpg') no-repeat;
 		background: -webkit-linear-gradient(transparent, transparent),
-					 url('../images/team/fun-Evan.jpg') no-repeat;
+					 url('../images/team2017/fun-Evan.jpg') no-repeat;
+		background-size: contain;
+	}
+	#javier .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+					 url('../images/team2017/fun-Javier.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+					 url('../images/team2017/fun-Javier.jpg') no-repeat;
 		background-size: contain;
 	}
 	#jd .personLink-img:hover {
@@ -312,6 +466,41 @@ p {
 					 url('../images/team/fun-JD.jpg') no-repeat;
 		background: -webkit-linear-gradient(transparent, transparent),
 					 url('../images/team/fun-JD.jpg') no-repeat;
+		background-size: contain;
+	}
+	#joseph .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../images/team2017/fun-Joseph.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../images/team2017/fun-Joseph.jpg') no-repeat;
+		background-size: contain;
+	}
+	#kana .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../images/team2017/fun-kana.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../images/team2017/fun-kana.jpg') no-repeat;
+		background-size: contain;
+	}
+	#katherine .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+									 url('../images/team2017/fun-Katherine.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+									 url('../images/team2017/fun-Katherine.jpg') no-repeat;
+		background-size: contain;
+	}
+	#kathleen .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+									 url('../images/team2017/fun-Kathleen.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+									 url('../images/team2017/fun-Kathleen.jpg') no-repeat;
+		background-size: contain;
+	}
+	#kendra .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+									 url('../images/team2017/fun-Kendra.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+									 url('../images/team2017/fun-Kendra.jpg') no-repeat;
 		background-size: contain;
 	}
 	#lucie .personLink-img:hover {
@@ -358,16 +547,37 @@ p {
 	}
 	#maya .personLink-img:hover {
 		background: linear-gradient(transparent, transparent),
-					 url('../images/team/fun-Maya.jpg') no-repeat;
+					 url('../images/team2017/fun-Maya.jpg') no-repeat;
 		background: -webkit-linear-gradient(transparent, transparent),
-					 url('../images/team/fun-Maya.jpg') no-repeat;
+					 url('../images/team2017/fun-Maya.jpg') no-repeat;
+		background-size: contain;
+	}
+	#michelle .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../images/team2017/fun-Michelle.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../images/team2017/fun-Michelle.jpg') no-repeat;
+		background-size: contain;
+	}
+	#natasha .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../images/team2017/fun-Natasha.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../images/team2017/fun-Natasha.jpg') no-repeat;
+		background-size: contain;
+	}
+	#nick .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+									 url('../images/team2017/fun-Nick.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+									 url('../images/team2017/fun-Nick.jpg') no-repeat;
 		background-size: contain;
 	}
 	#noah .personLink-img:hover {
 		background: linear-gradient(transparent, transparent),
-					 url('../images/team/fun-Noah.jpg') no-repeat;
+					 url('../images/team2017/fun-Noah.jpg') no-repeat;
 		background: -webkit-linear-gradient(transparent, transparent),
-					 url('../images/team/fun-Noah.jpg') no-repeat;
+					 url('../images/team2017/fun-Noah.jpg') no-repeat;
 		background-size: contain;
 	}
 	#phoebe .personLink-img:hover {
@@ -379,9 +589,9 @@ p {
 	}
 	#raina .personLink-img:hover {
 		background: linear-gradient(transparent, transparent),
-					 url('../images/team/fun-Raina.jpg') no-repeat;
+					 url('../images/team2017/fun-Raina.jpg') no-repeat;
 		background: -webkit-linear-gradient(transparent, transparent),
-					 url('../images/team/fun-Raina.jpg') no-repeat;
+					 url('../images/team2017/fun-Raina.jpg') no-repeat;
 		background-size: contain;
 	}
 	#taryn .personLink-img:hover {
@@ -393,9 +603,23 @@ p {
 	}
 	#teri .personLink-img:hover {
 		background: linear-gradient(transparent, transparent),
-					 url('../images/team/fun-Teri.jpg') no-repeat;
+					 url('../images/team2017/fun-Teri.jpg') no-repeat;
 		background: -webkit-linear-gradient(transparent, transparent),
-					 url('../images/team/fun-Teri.jpg') no-repeat;
+					 url('../images/team2017/fun-Teri.jpg') no-repeat;
+		background-size: contain;
+	}
+	#tina .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../images/team2017/fun-Tina.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../images/team2017/fun-Tina.jpg') no-repeat;
+		background-size: contain;
+	}
+	#wen .personLink-img:hover {
+		background: linear-gradient(transparent, transparent),
+	                 url('../images/team2017/fun-Wen.jpg') no-repeat;
+		background: -webkit-linear-gradient(transparent, transparent),
+	                 url('../images/team2017/fun-Wen.jpg') no-repeat;
 		background-size: contain;
 	}
 	#zoe .personLink-img:hover {

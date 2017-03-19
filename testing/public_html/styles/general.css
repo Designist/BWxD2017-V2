@@ -107,7 +107,7 @@ body {
   overflow: visible;
 position: absolute;
 	top: 50%;
-    left: 15px;
+    left: 10px;
     transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 }
