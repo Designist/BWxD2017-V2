@@ -232,9 +232,9 @@ p {
 }
 #kana .personLink-img {
 	background: linear-gradient(transparent, transparent),
-								 url('../images/team2017/kana.jpg') no-repeat;
+								 url('../images/team2017/Kana.jpg') no-repeat;
 	background: -webkit-linear-gradient(transparent, transparent),
-								 url('../images/team2017/kana.jpg') no-repeat;
+								 url('../images/team2017/Kana.jpg') no-repeat;
 	background-size: contain;
 }
 #katherine .personLink-img {
@@ -493,9 +493,9 @@ p {
 	}
 	#kana .personLink-img:hover {
 		background: linear-gradient(transparent, transparent),
-	                 url('../images/team2017/fun-kana.jpg') no-repeat;
+	                 url('../images/team2017/fun-Kana.jpg') no-repeat;
 		background: -webkit-linear-gradient(transparent, transparent),
-	                 url('../images/team2017/fun-kana.jpg') no-repeat;
+	                 url('../images/team2017/fun-Kana.jpg') no-repeat;
 		background-size: contain;
 	}
 	#katherine .personLink-img:hover {
