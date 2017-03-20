@@ -32,7 +32,13 @@ p {
 	margin-bottom: 5px;
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 999px) {
+	.greaterthan1000 {
+		display: none;
+	}
+}
+
+@media (min-width: 1000px) {
 	/*h1 {
 		padding-top: 80px;
 	}*/
@@ -59,11 +65,10 @@ p {
 		float: left;
 		/*width: 550px;*/
 		margin-right: 50px;
-		max-width: 40%;
+		max-width: 46%;
 		/*The next two lines are used for left scrollbar:*/
 		overflow-y: auto;
-		height: 89vh;
-		margin-left: 90px;
+		height: 95vh;
 		/*height: auto;
 		/*overflow: scroll;
 		/*overflow-y: auto;*/
@@ -72,10 +77,10 @@ p {
 	}
 	.rightCol {
 		float: left;
-		max-width: 40%;
+		max-width: 46%;
 		/*The next two lines are used for right scrollbar:*/
 		overflow-y: auto;
-		height: 89vh;
+		height: 95vh;
 		/*height: auto;
 		overflow: auto;*/
 		/*overflow-y: auto;*/
@@ -90,6 +95,17 @@ p {
 @media (max-width: 511px), (min-width: 750px) {
 	.nameBreak {
 		display: block;
+	}
+}
+@media (min-width: 1200px) {
+	.leftCol {
+		margin-left: 90px;
+		max-width: 40%;
+		height: 89vh;
+	}
+	.rightCol {
+		max-width: 40%;
+		height: 89vh;
 	}
 }
 

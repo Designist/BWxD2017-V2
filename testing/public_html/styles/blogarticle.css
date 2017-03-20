@@ -33,6 +33,16 @@ p {
   margin-bottom: 25px;
 }
 /* desktop-specific styling */
+@media (min-width: 1000px) {
+  .article {
+    width: calc(60% + 100px);
+    padding-top: 50px;
+  }
+  .articleDateContainer {
+    display: block;
+  }
+}
+
 @media (min-width: 1200px) {
   .leftCol {
     width: auto;
@@ -40,7 +50,6 @@ p {
   }
   .article {
     margin-right: 15%;
-    padding-top: 40px;
     width: calc(65% + 100px);
   }
   .previewImage {

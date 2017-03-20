@@ -109,7 +109,7 @@ h2 {
     /*padding-top: 90px;*/
     width: 24%;
     float: left;
-    padding-top: 40px;
+    padding-top: 50px;
   }
 }
 @media (max-width: 999px) {
@@ -120,6 +120,9 @@ h2 {
 @media (min-width: 1200px) {
   .leftCol {
     width: 65%;
+  }
+  .pressCol {
+    padding-top: 40px;
   }
   .content {
     padding-top: 10px;

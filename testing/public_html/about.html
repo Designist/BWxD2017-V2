@@ -27,13 +27,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script></head>
 <body>
   <nav id="menu" class="menu">
+      <div style="height: calc(100% - 100px);">
       <ul class="menu-l1">
-          <li><a  href="index.html">Home</a></li>
+          <a href="index.html"><img src="images/SidebarNav.png" style="width: 100px; margin-bottom: 5px;"/></a>
           <li><a class="inpagelink selectedPage" href="about.html" name="header">About Us</a></li>
           <li><a  href="blog.html">Blog</a></li>
           <li><a  href="conference.html">Conference</a></li>
           <li><a  href="sponsors.html">Sponsors</a></li>
       </ul>
+      </div>
+      <div class="logos" style="margin-left: 30px;">
+        <img src="images/Social/Fb.png"/><img src="images/Social/Twitter.png"/><img src="images/Social/Insta.png"/>
+      </div>
   </nav>
 
   <div class="navbarDiv">
@@ -59,7 +64,7 @@
     <div class="contentContainer whiteBG">
   		<div class="content">
         <div class="leftCol">
-          <h1>Hello!</h1>
+          <h1 class="desktopOnly">Hello!</h1>
   				<div id="mission">
   					<div class="subsection">
   						<h3>Who we are:</h3>
@@ -420,11 +425,6 @@
   								<p class="schoolTag">RISD, 2017</p>
   								<p class="committeeRole">C.E.</p>
   							</div>
-  							<div style="clear: both"></div>
-  						</div>
-            <!-- </div>
-  					<div class="subsection"> -->
-              <!-- <h3>Pre-2016 committees:</h3> -->
   						<div class="personProfile" id="alum-Isabella">
   							<a rel="leanModal" onclick="populateModal($(this)); return true;" class="personLink personLink-img" href="#modalPopup"></a>
   							<img class="personImg-border" src="images/circleBorder-blue.svg" />
@@ -545,6 +545,7 @@
   							<p class="schoolTag">BWxD, <br class="nameBreak"/>2010</p>
   						</div>
   						<div style="clear: both"></div>
+              </div>
   					</div>
   				</div>
         </div>

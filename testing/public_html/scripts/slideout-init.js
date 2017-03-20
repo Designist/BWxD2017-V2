@@ -1,7 +1,7 @@
 var slideout = new Slideout({
     'panel': document.getElementById('panel'),
     'menu': document.getElementById('menu'),
-    'padding': 256,
+    'padding': 175,
     'tolerance': 70,
     'side': 'left',
     'touch': false

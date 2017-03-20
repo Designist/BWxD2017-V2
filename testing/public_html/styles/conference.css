@@ -105,6 +105,16 @@ red    - #EF413D
 .scheduleLarge {
 	display: none;
 }
+
+.personLink-img {
+	transition: all 0.0s;
+	max-width: 130px;
+}
+.personProfile {
+	transition: all 0.0s;
+	max-width: 140px;
+}
+
 @media (min-width: 680px) {
 	.scheduleDayContent {
 		display: block;
@@ -117,6 +127,14 @@ red    - #EF413D
 	}
 	.scheduleLarge {
 		display: block;
+	}
+	.desktopPadding {
+		padding-right: 30px;
+	}
+}
+@media (min-width: 1200px) {
+	.desktopPadding {
+		padding-right: 0;
 	}
 }
 
@@ -151,32 +169,88 @@ h4 {
 	margin-top: 20px;
 }
 
+@media (min-width: 1000px) {
+	.leftCol {
+		float: left;
+		margin-left: 0px;
+		width: calc(65% + 100px);
+		padding-top: 40px;
+	}
+	.lessthan1000 {
+		display: none;
+	}
+	.visibleHead {
+		padding-bottom: 20px;
+	}
+}
+@media (max-width: 999px) {
+	.greaterthan1000 {
+		display: none;
+	}
+}
+
 @media (min-width: 1200px) {
   .leftCol {
-    width: calc(65% - 90px);
-    margin-right: 100px;
-    float: left;
 		margin-left: 90px;
+		width: calc(65% - 90px);
+		margin-right: 100px;
   }
 	.rightCol {
 		width: 22%;
 		float: left;
 	}
-	.visibleHead {
-		padding-bottom: 20px;
-	}
 	.personLink-img {
-		width: 71%;
-		padding-top: 71%;
+		width: 80%;
+		padding-top: 80%;
 	}
 	.personImg-border {
-		width: 71%;
+		width: 80%;
 	}
 	.personProfile {
 		width: 25%;
 		margin-right: 0px;
 	}
 }
+
+@media (max-width: 749px) {
+	.personProfile {
+		margin-right: 5%;
+	}
+}
+@media (max-width: 545px) {
+	.personProfile {
+		margin-right: 11%;
+	}
+}
+@media (max-width: 400px) {
+	.personProfile {
+		margin-right: 10%;
+	}
+}
+.rightCol {
+	padding-top: 60px;
+}
+@media (max-width: 1199px) {
+	.rightCol {
+		float:right;
+	}
+	.content {
+		padding-right: 6%;
+	}
+}
+@media (max-width: 999px) {
+	.rightCol {
+		display: none;
+	}
+	.content {
+		padding-right: 10%;
+	}
+}
+/*@media (max-width: 650px) {
+	.personProfile {
+		margin-right: 5%;
+	}
+}*/
 
 /**/
 /* Schedule Event */

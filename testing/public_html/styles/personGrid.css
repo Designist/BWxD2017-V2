@@ -27,15 +27,15 @@
 		display: block;
 	}
 }
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
 	.personProfile {
 		width: 28%;
 		margin-right: 5%;
 	}
 }
-.nameBreak {
-	display: none; /* visibility settings in individual page styles */
-}
+/*.nameBreak {
+	display: none;  visibility settings in individual page styles
+}*/
 
 .personImg-border {
 	width: 90%;
