@@ -19,6 +19,7 @@ slideout.on('beforeopen', function() {
     $('.contentContainer').click(function() {
         slideout.close();
     });
+    $('.menu').css('display', 'block');
     $('.contentContainer').css('border-left', '2px solid #00B5AD');
 	  $('.hamburger').addClass('is-active');
 });

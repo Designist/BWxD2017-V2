@@ -21,8 +21,8 @@ function layout() {
   //   }
 
     //bump down content and menu for navbar
-    $('.contentContainer').css('margin-top', navbar.height());
-    $('#menu').css('margin-top', navbar.height());
+    // $('.contentContainer').css('margin-top', navbar.height());
+    // $('#menu').css('margin-top', navbar.height());
 
     //set min content height to 100vh (minus navbar height) so that right border for menu
     //goes all the way down on shorter pages (e.g. sponsors)

@@ -10,6 +10,9 @@
 	text-align: center;
 }
 
+.contentContainer, #menu {
+	margin-top: 60px;
+}
 
 @media (min-width:1200px) {
 	#header {

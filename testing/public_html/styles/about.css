@@ -36,6 +36,9 @@ p {
 	.greaterthan1000 {
 		display: none;
 	}
+	.mobileMargin {
+		padding-top: 30px;
+	}
 }
 
 @media (min-width: 1000px) {
@@ -378,7 +381,7 @@ p {
 	background-size: contain;
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1000px){
 	#brian .personLink-img:hover {
 		background: linear-gradient(transparent, transparent),
 	                 url('../images/team2017/fun-Brian.jpg') no-repeat;
