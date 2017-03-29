@@ -30,5 +30,6 @@ slideout.on('beforeclose', function() {
 });
 slideout.on('close', function() {
     $('.contentContainer').css('border-left', 'none');
+    $('.menu').css('display', 'none');
 	  layout();
 });
