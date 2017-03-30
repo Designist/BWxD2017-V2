@@ -301,10 +301,11 @@ a {
     .desktopOnly {
         display: block;
     }
-
-    a:hover {
-        color: #00B5AD;
-    }
+}
+@media (min-width: 1000px) {
+  a:hover {
+      color: #00B5AD;
+  }
 }
 
 /*For navbar*/
