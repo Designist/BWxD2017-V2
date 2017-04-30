@@ -175,6 +175,7 @@ h4 {
 		margin-left: 0px;
 		width: calc(65% + 100px);
 		padding-top: 40px;
+		padding-bottom: 45px;
 	}
 	.lessthan1000 {
 		display: none;

@@ -59,6 +59,7 @@ var bioInfo = {
 	'alum-Tim-name'      : 'Tim Dingman',
 	'alum-Tino-name'     : 'Tino Chow',
 	'alum-Veronica-name' : 'Veronica Clarkson',
+	'alum-Willem-name'	 : 'Willem Van Lancker',
 	'alum-Yan-name'      : 'Yan Liang',
 
 	'presenter-AlanHarlam-name'         : 'ALAN HARLAM',
@@ -189,6 +190,7 @@ var bioInfo = {
 	'alum-Tim-img'      : 'url(images/alumni/Tim.png)',
 	'alum-Tino-img'     : 'url(images/alumni/Tino.jpg)',
 	'alum-Veronica-img' : 'url(images/alumni/Veronica.png)',
+	'alum-Willem-img' : 'url(images/alumni/Willem.png)',
 	'alum-Yan-img'      : 'url(images/alumni/Yan.png)',
 	'presenter-AlanHarlam-img'         : 'url(images/presenters/AlanHarlam.jpg)',
 	'presenter-AllenPenniman-img'      : 'url(images/presenters/AllenPenniman.jpg)',
@@ -318,6 +320,7 @@ var bioInfo = {
 	'alum-Tim-bio'      : "Tim is one of the co-founders of Castle, a startup in Detroit that manages rental properties using automation and on-demand labor.",
 	'alum-Tino-bio'     : "Tino Chow is a problem-solver, designer, and entrepreneur, with a dash of troublemaker. Since graduating from Rhode Island School of Design in 2009, he has been involved with a plethora of projects ranging from non-profit development to education to product design. Tino is also a TED fellow and has given guest talks at a number of conferences, schools, and universities.",
 	'alum-Veronica-bio' : "Since graduating from Brown in 2012, Veronica has worked in consulting at the intersection of business and government at DC-based boutique consulting firm Avascent, and in the solar industry at San Francisco-based Solar Engine where she focused on creating a financing solution to enable more homeowners to put solar on the roof. She is now pursuing an MBA at the Kellogg School of Management at Northwestern University.",
+	'alum-Willem-bio'   : "Willem Van Lancker is an entrepreneur and designer living in New York. He studied Graphic Design at RISD, graduating in 2010. He is the founder of Oyster, a subscription ebook service, acquired by Google in 2015. Previously he was a designer at IDEO, Apple, and Google Maps.",
 	'alum-Yan-bio'      : "",
 	'presenter-AlanHarlam-bio'         : "Alan is the Director of Social Innovation at Brown's Swearer Center. The Social Innovation Initiative (SII) reaches hundreds of students and alumni each year with programs that support students who are learning about social innovation, launching their own social impact ventures, and crafting lives and careers of impact.  Outside of work, Alan serves on the boards of Social Enterprise Greenhouse, City Year and Eye to Eye.",
 	'presenter-AllenPenniman-bio'      : "Allen Penniman is a principal planner for the City of Providence and founding director of Street Ops, a Boston-based tactical urbanism collective. Previously, Allen managed master plans for Sasaki Associates. Operating at the intersection of urban design and community economic development, Allen's work uses the power of planning and design policy to foster equitable redevelopment in urban communities. Currently, Allen is immersed in a highway-to-boulevard project in Providence, where he also spearheads a \"living alleys\" program and leads area plans for post-industrial neighborhoods.",

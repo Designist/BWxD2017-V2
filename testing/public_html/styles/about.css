@@ -764,10 +764,29 @@ p {
                  url('../images/alumni/Veronica.png') no-repeat;
 	background-size: contain;
 }
+#alum-Willem .personLink-img {
+	background: linear-gradient(transparent, transparent),
+                 url('../images/alumni/Willem.png') no-repeat;
+	background: -webkit-linear-gradient(transparent, transparent),
+                 url('../images/alumni/Willem.png') no-repeat;
+	background-size: contain;
+}
 #alum-Yan .personLink-img {
 	background: linear-gradient(transparent, transparent),
                  url('../images/alumni/Yan.png') no-repeat;
 	background: -webkit-linear-gradient(transparent, transparent),
                  url('../images/alumni/Yan.png') no-repeat;
 	background-size: contain;
+}
+
+/*Firefox Scrollbar Issue*/
+@-moz-document url-prefix() {
+	@media(min-width: 1000px) {
+		body {
+			overflow: scroll;
+		}
+		.leftCol, .rightCol {
+			overflow: inherit;
+		}
+	}
 }
