@@ -53,6 +53,6 @@ p {
     width: calc(65% + 100px);
   }
   .previewImage {
-    margin: 0 2px;
+    margin: 0 0px;
   }
 }

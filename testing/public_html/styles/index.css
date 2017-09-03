@@ -3,7 +3,7 @@ body {
 
 .mainLogo {
     position: relative;
-    margin-top: 10vh;
+    margin-top: 8vh;
     height: 45vh;
 }
 
@@ -114,7 +114,7 @@ body {
     .landingType {
         font-size: 2.2em;
         line-height: 1.2em;
-        padding: 0 20vw;
+        padding: 0 10vw;
         margin-bottom: 4vh;
     }
 
@@ -131,7 +131,7 @@ body {
   .landingType {
     font-size: 1.9em;
     line-height: 1.15em;
-    padding: 0 20vw;
+    padding: 0 10vw;
     margin-bottom: 5vh;
   }
   .
